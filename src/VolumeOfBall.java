@@ -2,15 +2,15 @@
 
 public class VolumeOfBall {
     public static void main(String[] args) {
-        Scanner myobj= new Scanner(System.in);
-        System.out.println("Enter the Radious:");
+        Scanner myobj = new Scanner(System.in);
+        System.out.println("Enter the Radius:");
 
-        float radious = myobj.nextFloat();
+        float radius = myobj.nextFloat();
 
-        double volume = (4.00/3.00) * 3.1416 * Math.pow(radious,3);
+        double volume = (4.00/3.00) * 3.1416 * Math.pow(radius,3);
 
-        if (radious <= 0 ) {
-            System.out.println("Radious must be positive numbers.");
+        if (radius <= 0 ) {
+            System.out.println("Radius must be positive numbers.");
         } else {
             System.out.printf("The volume of ball: %.2f%n", volume);
         }
