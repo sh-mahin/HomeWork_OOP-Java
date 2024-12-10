@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class AreaOfCircle {
     public static void main(String[] args) {
         Scanner myobj= new Scanner(System.in);
-        System.out.println("Enter the Radious:");
+        System.out.println("Enter the Radius:");
 
-        float radious = myobj.nextFloat();
+        float radius = myobj.nextFloat();
 
-        double area = 3.1416 * Math.pow(radious,2);
+        double area = 3.1416 * Math.pow(radius,2);
 
-        if (radious <= 0 ) {
-            System.out.println("Radious must be positive numbers.");
+        if (radius <= 0 ) {
+            System.out.println("Radius must be positive numbers.");
         } else {
             System.out.printf("The area of circle: %.2f%n", area);
         }
