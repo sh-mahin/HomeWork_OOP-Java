@@ -13,8 +13,6 @@ public class TemperatureConversion {
             System.out.printf("The temperature in Fahrenheit scale is: %.2f%n",Fahrenheit );
 
 
-
-
     }
 
 }
