@@ -7,10 +7,10 @@ public class OddEven {
         int num = input.nextInt();
 
         if(num % 2 == 0){
-            System.out.println("Number is a positive integer.");
+            System.out.println("Number is a even.");
         }
         else {
-            System.out.println("Number is not a positive integer.");
+            System.out.println("Number is odd.");
         }
     }
 }
