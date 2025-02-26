@@ -1,4 +1,6 @@
- import java.util.Scanner;
+package task2;
+
+import java.util.Scanner;
 public class OddEven {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
