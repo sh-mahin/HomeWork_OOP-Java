@@ -9,12 +9,12 @@ public class CalculateGrade {
         System.out.print("Enter score: ");
         int score = input.nextInt();
 
-        String gpa;
+        String grade;
 
         if (score < 0 || score > 100) {
-            gpa = "Invalid score";
+            grade= "Invalid score";
         } else {
-            gpa = switch (score / 10) {
+            grade = switch (score / 10) {
                 case 10, 9 -> "A+";
                 case 8 -> "A";
                 case 7 -> "A-";
@@ -24,7 +24,7 @@ public class CalculateGrade {
             };
         }
 
-        System.out.println("The GPA is: " + gpa);
+        System.out.println("The Grade is: " + grade);
 
     }
 }
